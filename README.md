@@ -1,5 +1,5 @@
 # Speech-Recognition-Transfer-Learning
-In this project, we built and fine-tuned multiple CNN models to test their performance on a kaggle speech command audio dataset.
+In this project, we built and fine-tuned multiple CNN models to test their performance on a kaggle speech command audio dataset. In the meantime, we investigate how different inputs[MFCC vs. Mel_spectrogram] shifts the model performance.
 
 ***Goal:*** Explore how different architectures/inputs performed on speech recognition. Select the model with the best performance and operate the hyperparameters optimizations technique on it.
 
