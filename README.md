@@ -428,3 +428,6 @@ https://www.kaggle.com/code/davids1992/speech-representation-and-data-exploratio
 https://www.kaggle.com/code/faresabbasai2022/speech-recognition
 https://keras.io/examples/audio/ctc_asr/
 https://www.kaggle.com/code/mayarmohsen/numbersyscnn
+
+Author: Tom Zhou     tz1307@nyu.edu
+Jiabao(Sheldon) Wang jw6452@nyu.edu
