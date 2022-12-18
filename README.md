@@ -427,6 +427,7 @@ Potential Future Studies:
 Explore in-depth about the tradeoff curves among different inputs. [transformed images from audio files]
 Explore in-depth about the input shape and model performance.
 Explore in-depth about the tradeoff between model accuracy and training time.
+Explore in depth about the robustness among different architectures over  clean data(noise and silence reduced) and dirty data(raw audios with no data preprocessing )
 Reference:
 https://www.kaggle.com/code/mohamedahmedae/inceptiontime-ctc-models-val-f1socre-0-96
 https://www.kaggle.com/code/davids1992/speech-representation-and-data-exploration?scriptVersionId=1924001
