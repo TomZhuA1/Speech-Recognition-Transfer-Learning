@@ -406,13 +406,18 @@ plt.show()
 
 ***Conclusion:***
 
-MFCC, as the compressed version of the spectrogram graphs, is destined to have a certain amount of information loss in the process of compression. 
+MFCC, as the compressed version of the spectrogram graphs, is destined to have a certain amount of information loss in the process of compression. Therefore, it ought to increase the loss and decrease the accuracy of the model.  But this conclusion is derived from general ideas rather than scientific research. 
 
-Therefore, it ought to increase the loss and decrease the accuracy of the model. But this conclusion is derived from general ideas rather than scientific research. 
+In this study, we demonstrate how different image inputs could shift the performance of the models. Attest by the model performance trained with inputs differently, we can firmly announce that Mel_spectrogram fed speech recognition model has better performance than MFCC fed model on traditional  CNN architecture. However, we stay cautious on this conclusion since it may not apply to other  architectures . 
 
-In this study, we demonstrate how different image inputs could shift the performance of the models. Attest by the model performance trained with inputs differently, we can firmly announce that Mel_spectrogram fed speech recognition model has better performance than MFCC fed model on traditional CNN architecture. However, we stay cautious about this conclusion since it may not apply to other architectures.
+Beyond this, we also discover that models fed by MFCC tend to be more stable and “sustainable”. This is clearly demonstrated through the graph of model accuracy vs. time.  Training time is minimized when feeding MFCC to the models.
 
-In addition to the findings regarding how different transformations of audio files could influence the model performance, we also evaluate how different architectures performed on classifying speech recognition. The traditional CNN model outperforms ResNet50 and InceptionV3, but on a really small scale. Again, we stay cautious about this finding because the model performance on the validation set, specifically accuracy, varies a lot. The slight difference in accuracy could result from noise or human error in this experiment.
+
+
+
+In addition to the findings regarding how different transformations of audio files could influence the model performance, we also evaluate how different architectures performed on classifying speech recognition. The  InceptionV3 model outperforms ResNet50 and traditional CNN(with only 3 conv layers), but on a really small scale. Again, we stay cautious about this finding because the model performance on the validation set, specifically accuracy, varies a lot. The slight difference in accuracy could result from noise or human error in this experiment. Overall, InceptionV3 has better performance in both training and testing dataset. And it’s performance is more stable than other two architectures. It also takes the most amount of time to train each epoch. 
+
+
 
 
 
